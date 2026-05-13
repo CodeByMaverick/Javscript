@@ -42,3 +42,31 @@ const myFunction = function(){
 
 console.log(typeof outsideTemp);
 // typeof value of null is object 
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), Heap (non-primitive)
+
+// In stack we get copy of variable we declared
+// In heap we get reference of original value
+
+let myGithubname = "codebymaverick"
+let anothername = myGithubname
+anothername = "githubmaverick"
+
+console.log(myGithubname);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
