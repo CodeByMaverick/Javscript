@@ -35,3 +35,10 @@ let myObj = {
     name : "Maverick",
     age : 19,
 }                       // object
+
+const myFunction = function(){
+    console.log("Hello world");
+} 
+
+console.log(typeof outsideTemp);
+// typeof value of null is object 
