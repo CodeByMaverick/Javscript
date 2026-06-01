@@ -53,3 +53,27 @@ console.log(Object.values(hingeUser));
 console.log(Object.entries(hingeUser));
 
 console.log(hingeUser.hasOwnProperty("isLoggedIn"));
+
+
+const course = {
+    coursename: "Javascript",
+    coursePrice: 3000,
+    courseTutor: "someone"
+}
+
+// console.log(course.courseTutor);
+
+const {courseTutor: Tutor} = course
+console.log(Tutor);
+
+// {
+//     "name": "maverick",
+//     "course": "Javascript"       ------ JSON format , API
+//     "duration": "3 months"
+// }
+
+[
+    {},
+    {},
+    {}
+]
