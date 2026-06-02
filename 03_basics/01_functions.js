@@ -26,3 +26,24 @@ function addnumbers(number1, number2){
 }
 let result = addnumbers(4, 9)
 console.log("Result:", result);
+
+
+function userLoginMessage(username){
+    if(username === undefined){
+        console.log("Please enter a username")
+        return
+    }
+    return `${username} just logged in`
+}
+console.log(userLoginMessage("Maverick"));
+
+// another case
+
+function userLoginMessage2(username = "james"){       // If it has a default value then if() will not execute
+    if(!username){
+        console.log("Please enter a username")
+        return
+    }
+    return `${username} just logged in`
+}
+console.log(userLoginMessage2());                     // but if a value in entered here so it will override
