@@ -1,2 +1,3 @@
 # Javscript
-A code repo for Javascript
+Doing JS now 
+Moving towards MERN
