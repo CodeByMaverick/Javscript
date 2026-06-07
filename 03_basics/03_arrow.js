@@ -6,3 +6,9 @@ const user = {
         console.log(`${this.username}, welcome to the website`);
     }
 }
+
+user.welcomeMessage()
+user.username = "james"
+user.welcomeMessage()
+
+console.log(this);
