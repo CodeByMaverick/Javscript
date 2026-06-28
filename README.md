@@ -24,3 +24,9 @@ A repository documenting my JavaScript learning journey through notes, coding ex
 ## Goal
 
 Build a strong JavaScript foundation before moving on to the MERN Stack.
+
+## Learning Resources
+
+- MDN Web Docs
+- JavaScript.info
+- FreeCodeCamp
